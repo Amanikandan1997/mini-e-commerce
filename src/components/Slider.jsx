@@ -8,13 +8,13 @@ export default function Slider() {
   return (
     <MDBCarousel showControls>
       <MDBCarouselItem itemId={1}>
-        <img  src={slider1} className='d-block w-100 '  style={{ height: '320px' }}alt='...' />
+        <img  src={slider1} className='d-block w-100 '  alt='...' />
       </MDBCarouselItem>
       <MDBCarouselItem itemId={2}>
-        <img src={slider2}className='d-block w-100' style={{ height: '320px' }} alt='...' />
+        <img src={slider2}className='d-block w-100'  alt='...' />
       </MDBCarouselItem>
       <MDBCarouselItem itemId={3}>
-        <img src={slider3} className='d-block w-100' style={{ height: '320px' }} alt='...' />
+        <img src={slider3} className='d-block w-100'  alt='...' />
       </MDBCarouselItem>
     </MDBCarousel>
   );
