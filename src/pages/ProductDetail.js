@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ProductDetail({product}) {
   return (
@@ -29,7 +30,8 @@ function ProductDetail({product}) {
 
                 <span class="btn btn-primary plus">+</span>
             </div>
-             <button type="button" id="cart_btn" class="btn btn-primary d-inline ml-4">Add to Cart</button>
+            <Link to="/login">
+             <button type="button" id="cart_btn" class="btn btn-primary d-inline ml-4">Add to Cart</button></Link>
 
             <hr/>
 
