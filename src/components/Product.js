@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import {Link} from "react-router-dom"
+import Product1 from './Product1'
 
 function Product({products}) {
   return (
@@ -26,6 +27,8 @@ function Product({products}) {
             </div>
           </div>
         </div>
+   
+   
 
     </Fragment>
   )
